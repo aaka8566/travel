@@ -1,0 +1,306 @@
+*{
+    font-family: Merriweather Sans,sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    padding: 0rem 0.8rem 0rem 0.8rem;
+}
+.navbarmiddle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    line-height: 25px;
+}
+.navbarlast{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+.navdrop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    border: 1px solid rgb(216, 211, 211);
+    border-style: groove;
+    padding: 0.3rem 0.6rem 0.3rem 0.6rem;
+    border-radius: 4px;
+}
+.navdrop>img{
+    width: 50%;
+}
+.navimage{
+width: 15%;
+border: 0px solid green;
+}
+.navimg{
+    width: 100%;
+   
+}
+.navlastright{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 0px solid red;
+    gap: 1rem;
+    width: 50%;
+}
+.call{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.5rem;
+}
+.navcontact{
+    background-color: rgb(0,168,182);
+    color: white;
+    border-radius: 3px;
+    padding: 0.6rem 0.6rem 0.6rem 0.6rem;
+   font-size: 16px;
+    font-weight: 700;
+}
+.callicon{
+    border-radius: 20px;
+    background-color: rgb(0,168,182);
+    color: white;
+    padding: 0.5rem;
+}
+.navbutsele{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0px solid green;
+    width: 40%;
+    gap: 0.8rem;
+}
+
+/* four sections */
+.foursec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgb(216, 211, 211);
+}
+.eachsec{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgb(216, 211, 211);
+padding: 1.5rem;
+gap: 1rem;
+}
+.eachsec>div:nth-child(2){
+    border: 0px solid green;
+    width: 60%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.2;
+    line-break:loose;
+    color: rgb(129, 124, 124);
+}
+.foursec>div:nth-child(1)>div:nth-child(2)>span:nth-child(1)::after{
+    content: "\a";
+    white-space: pre;
+}
+.eachsec>div:nth-child(3){
+    border: 0px solid green;
+   background-color: white;
+    text-align: center;
+    font-size: 18px;
+   
+}
+/* four sections */
+
+
+/* middle image */
+.middlesec{
+width: 100%;
+border: 0px solid red;
+}
+.middlesec>img{
+    width: 100%;
+}
+.middletext{
+    position: absolute;
+    border: 0px solid green;
+    top: 64%;
+    left: 22%;
+    width: fit-content;
+    text-align: center;
+    padding: 1.5rem;
+    backdrop-filter: blur(2px);
+    border-radius: 6px;
+    box-shadow: 0 20px 25px 0 rgba(0, 0, 0, 0.2);
+    background:rgba(20, 19, 19, 0.5); 
+  
+
+}
+
+.middletext>div:nth-child(1){
+font-size: 50px;
+font-weight: 700;
+color: white;
+}
+.middletext>div:nth-child(2){
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    }
+/* middle image */
+
+/* section mark */
+.maindesc{
+    width: 90%;
+    margin: auto;
+    padding-top: 2rem;
+}
+.secmark{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.maindescinternal{
+    display: flex;
+    justify-content: space-between;
+    
+    gap: 5rem;
+}
+.maindesccontent{
+    border: 0px solid green;
+    
+}
+.tourdesc{
+    border: 0px solid green;
+    font-size: 17px;
+    line-height: 28px;
+    color: rgb(148, 141, 141);
+    height: 10rem;
+    overflow: hidden;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+.seemorediv{
+    width: 100%;
+   display: flex;
+   justify-content: center;
+}
+.seemore{
+ color:rgb(0,168,182);
+    font-size: 15px;
+    background: none;
+    border: none;
+    padding-top: 0.5rem;
+    margin: auto;
+    cursor: pointer;
+}
+#tourdesca{
+    height:auto;
+    
+}
+.maindescstars{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.maindescoptions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.maindescforminfo>div{
+    margin-bottom: 2rem;
+}
+.maindescforminfo>div:nth-child(1){
+    padding: 1rem 0rem 1rem 1.5rem;
+    border: 1px solid rgb(216, 207, 207);
+    border-radius: 5px;
+}
+.maindescforminfo>div:nth-child(1)>p:nth-child(1){
+    font-size: 15px;
+    color:grey;
+    font-weight: 500;
+    line-height:6px;
+}
+.maindescforminfo>div:nth-child(1)>p:nth-child(2){
+    font-size: 20px;
+    color:rgb(0,168,182);
+    font-weight: 600;
+    line-height:0px;
+}
+.maindescoptions{
+    padding: 1rem;
+    background-color: rgb(241,241,241);
+    border-radius: 6px;
+    color:rgb(0,168,182) ;
+    font-size: 20px;
+    font-weight: 700;
+}
+.maindesclasttile{
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border: 1px solid rgb(216, 207, 207);
+    border-radius: 5px;
+   
+}
+.maindesclasttile>p:nth-child(1){
+    font-size: 15px;
+    font-weight: 300;
+}
+.maindesclasttile>p:nth-child(2)>span:nth-child(1){
+    font-size: 20px;
+    font-weight: 700;
+}
+.maindesclasttile>p:nth-child(2)>span:nth-child(2){
+    font-size: 17px;
+    font-weight: 700;
+    color: rgb(0,168,182);
+}
+.maindesclastinfo{
+    display: flex;
+gap: 1rem;
+border: 1px solid white;
+border-radius: 6px;
+justify-content: space-between;
+align-items: center;
+padding: 1rem;
+}
+.maindescform{
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    background-color:rgb(55,62,62);
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.maindescform>div:nth-child(1){
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+.maindescform>div{
+    padding-bottom: 1.2rem;
+}
+.maindescform input{
+    width: 100%;
+    height: 2rem;
+    border-radius: 5px;
+}
+.maindescnext{
+    color: white;
+    background-color: rgb(0,168,182);
+    width: 100%;
+    padding: 1rem;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 6px;
+}
+/* section mark */
