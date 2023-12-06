@@ -186,17 +186,21 @@ color: white;
     font-size: 17px;
     line-height: 28px;
     color: rgb(148, 141, 141);
-    height: 10rem;
+    
     overflow: hidden;
     transition-property: width;
     transition-duration: 2s;
     transition-timing-function: linear;
     transition-delay: 1s;
 }
+
 .seemorediv{
     width: 100%;
    display: flex;
    justify-content: center;
+   align-content: center;
+   border: 0px solid red;
+   align-items: center;
 }
 .seemore{
  color:rgb(0,168,182);
@@ -204,7 +208,7 @@ color: white;
     background: none;
     border: none;
     padding-top: 0.5rem;
-    margin: auto;
+    
     cursor: pointer;
 }
 #tourdesca{
@@ -363,12 +367,16 @@ padding: 1rem;
     }
     .tourdesc{
         
-        height: 7rem;
+        /* height: 7rem; */
         line-height: 23px;
         border: 0px solid blue;
         width: 100%;
         margin: auto;
     }
+   .notfoundimage{
+    object-fit: cover;
+    width: 100%;
+   }
     .maindesc{
         
         margin: auto;
